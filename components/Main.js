@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Main = () => {
 	return (
-		<div className='grid grid-cols-3 grid-rows-3 gap-6 my-16 lg:mx-20 md:mx-4 mx-2'>
+		<div className='grid grid-cols-3 grid-rows-3 gap-6 my-12 lg:mx-20 md:mx-4 mx-2'>
 			<div className='bg-gray-200 text-white h-64 row-start-1 row-span-1 col-span-2 rounded-xl'>
 				<h1 className='text-black text-xl text-center mt-28'>
 					Project One Goes Here

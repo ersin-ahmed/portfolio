@@ -4,8 +4,9 @@
 
 html,
 body {
-    padding: 0;
-    margin: 0;
-    background-image: url("../public/bg.jpg");
-  
+	padding: 0;
+	margin: 0;
+	background-image: url('../public/bg.jpg');
+	background-repeat: repeat;
+	background-size: cover;
 }

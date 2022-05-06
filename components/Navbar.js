@@ -9,7 +9,7 @@ const Navbar = () => {
 				<title>Portfolio of Ersin Ahmed</title>
 				<meta name='viewport' content='initial-scale=1.0, width=device-width' />
 			</Head>
-			<nav className='bg-gray-800 text-white border-gray-200 px-2 sm:px-4 py-3'>
+			<nav className='bg-gray-800 text-white border-gray-200 md:px-2 md:px-4 md:py-3'>
 				<div className='container flex flex-wrap justify-between items-center mx-auto'>
 					<Link href='/' className='flex items-center'>
 						<a className='hover:text-teal-200 text-xl flex'>
@@ -17,7 +17,7 @@ const Navbar = () => {
 								src='/../public/logo.jpg'
 								width={40}
 								height={40}
-								className='rounded-full justify-start'
+								className='rounded-full justify-start invisible md:visible'
 							/>
 							<h1 className='mt-1 mx-5'>Ersin Ahmed</h1>
 						</a>
