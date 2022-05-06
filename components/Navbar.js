@@ -9,7 +9,7 @@ const Navbar = () => {
 				<title>Portfolio of Ersin Ahmed</title>
 				<meta name='viewport' content='initial-scale=1.0, width=device-width' />
 			</Head>
-			<nav className='bg-gray-700 text-white border-gray-200 px-2 sm:px-4 py-3'>
+			<nav className='bg-gray-800 text-white border-gray-200 px-2 sm:px-4 py-3'>
 				<div className='container flex flex-wrap justify-between items-center mx-auto'>
 					<Link href='/' className='flex items-center'>
 						<a className='hover:text-teal-200 text-xl flex'>
