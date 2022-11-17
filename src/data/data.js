@@ -21,6 +21,6 @@ export const data = [
 		image: Portfolio,
 		github: 'https://github.com/ersin-ahmed/portfolio',
 		live: 'https://portfolio-ersin-ahmed.vercel.app/',
-		stack: 'JavaScript, React, Vite, Tailwind CSS and GetForm API',
+		stack: 'JavaScript, React, Vite, TailwindCSS and GetForm API',
 	},
 ];
