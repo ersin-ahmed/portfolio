@@ -19,8 +19,8 @@ export const data = [
 		description:
 			"This is the very same Portfolio Site you're currently on at the moment. This is where I showcase my projects that i've built along with additional information about myself. I made this website using React with Vite as the building tool for the framework. And I used Tailwind CSS for the styling.",
 		image: Portfolio,
-		github: '',
-		live: '',
+		github: 'https://github.com/ersin-ahmed/portfolio',
+		live: 'https://portfolio-ersin-ahmed.vercel.app/',
 		stack: 'JavaScript, React, Vite, Tailwind CSS and GetForm API',
 	},
 ];
