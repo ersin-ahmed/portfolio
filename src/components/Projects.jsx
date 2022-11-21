@@ -8,7 +8,7 @@ const Projects = () => {
 		<div id='Background Div' className='bg-[#0a192f]'>
 			<div
 				name='work'
-				className='w-full h-full lg:h-screen max-w-[1000px] mx-auto p-4 text-gray-300 flex flex-col'
+				className='w-full h-full mb-24 max-w-[1000px] mx-auto p-4 text-gray-300 flex flex-col'
 			>
 				<div className='pb-8'>
 					<p className='text-4xl font-bold inline border-b-4 border-cyan-400'>
