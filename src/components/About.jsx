@@ -26,7 +26,7 @@ const About = () => {
 						<p className='text-lg font-medium'>
 							I am a Web Developer from Burgas, Bulgaria. My technical skills
 							include: Web Development with Javascript and React. I've been
-							coding since the year 2017 and my misson is to create beautifully
+							coding since the year 2017 and my mission is to create beautifully
 							designed Front Ends with exceptional User Experiences and share
 							them with the world! At the end of the day the actual purpose of
 							Programming is to provide real world solutions to real world
