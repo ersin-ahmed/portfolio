@@ -85,17 +85,18 @@ const Navbar = () => {
 				className={
 					!nav
 						? 'hidden'
-						: 'absolute top-20 left-0 w-full h-screen bg-gradient-to-b from-[#0a192f] to-blue-900 flex flex-col justify-start items-center'
+						: 'absolute top-20 left-0 w-full h-screen font-bold text-cyan-300 bg-gradient-to-b from-[#0a192f] to-blue-900 flex flex-col justify-start items-center'
 				}
 			>
-				<li className='py-6 text-4xl'>
+				<li className='py-6 text-4xl mt-8'>
 					<Link onClick={handleClick} to='home' smooth={true} duration={400}>
 						Home
 					</Link>
 				</li>
+
 				<li className='py-6 text-4xl'>
-					<Link onClick={handleClick} to='about' smooth={true} duration={400}>
-						About
+					<Link onClick={handleClick} to='work' smooth={true} duration={400}>
+						Projects
 					</Link>
 				</li>
 				<li className='py-6 text-4xl'>
@@ -104,8 +105,8 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li className='py-6 text-4xl'>
-					<Link onClick={handleClick} to='work' smooth={true} duration={400}>
-						Work
+					<Link onClick={handleClick} to='about' smooth={true} duration={400}>
+						About
 					</Link>
 				</li>
 				<li className='py-6 text-4xl'>
