@@ -19,7 +19,7 @@ const Projects = () => {
 				{project.map((item, index) => (
 					<div
 						id='Project Container'
-						className='flex flex-col justify-between align-middle items-center lg:flex-row px-2 py-6'
+						className='flex flex-col justify-between align-middle items-center lg:flex-row px-2 py-6 mb-24'
 						key={index}
 					>
 						<div id='Project Description'>
