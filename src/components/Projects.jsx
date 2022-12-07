@@ -19,11 +19,11 @@ const Projects = () => {
 				{project.map((item, index) => (
 					<div
 						id='Project Container'
-						className='flex flex-col justify-between align-middle items-center lg:flex-row px-2 py-6 mb-24'
+						className='flex flex-col justify-between align-middle items-center gap-8 lg:flex-row px-2 py-6 mb-24'
 						key={index}
 					>
-						<div id='Project Description'>
-							<h1 className='text-4xl font-bold py-8  lg:py-6 border-b-4 border-blue-600'>
+						<div id='Project Description' className='w-full md:w-[70vw]'>
+							<h1 className='text-4xl font-bold py-8 lg:py-6 border-b-4 border-blue-600'>
 								{item.name}
 							</h1>
 							<p className='text-lg py-6 lg:py-2 font-medium'>
@@ -38,13 +38,13 @@ const Projects = () => {
 						</div>
 						<div
 							id='Project Image'
-							className='flex flex-col justify-center items-center align-middle p-6 lg:p-2 rounded-md '
+							className='flex flex-col justify-center items-center align-middle md:w-[60vw] p-6 lg:p-2 rounded-md '
 						>
-							<a href='/' rel='norefferer' target='_blank'>
+							<a href={item.live} rel='norefferer' target='_blank'>
 								<img
 									src={item.image}
 									alt='Project Image'
-									className='rounded-md border-2 border-cyan-700 object-scale-down h-auto w-[70vw]'
+									className='rounded-md border-2 border-cyan-700 object-scale-down h-full w-[1200px]'
 								/>
 							</a>
 							<div className='flex justify-center align-middle items-center pt-4 text-center'>
